@@ -13,7 +13,7 @@ additional user-configurable options which are not part of the default EXT:news 
 such form fields directly in the template that requires such values.
 
 The integration is built using standard Flux integrations with minimal adaptations in key places.
-It consists of a single class file (around 25 lines of code) )and one line of code to register this class,
+It consists of a single class file (around 25 lines of code) and one line of code to register this class,
 which is all that is necessary to connect Flux to EXT:news.
 
 Installation
@@ -45,7 +45,7 @@ To consume TypoScript variables in your form such variables *must be addded to t
 scope - which is already where you would define variables you would use as `{settings}` in your EXT:news
 templates, including additional variables beyond those EXT:news defines.
 
-How do use the feature
+How to use the feature
 ----------------------
 
 The integration works by making a connection between the template file that would be rendered by the plugin
