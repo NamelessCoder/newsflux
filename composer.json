@@ -1,0 +1,25 @@
+{
+    "name": "namelesscoder/newsflux",
+    "type": "typo3-cms-extension",
+    "description": "Provides integration between the Flux API and EXT:news'",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "news",
+        "flux",
+        "fluid"
+    ],
+    "license": [
+        "GPL-2.0+"
+    ],
+    "require": {
+        "typo3/cms": ">=7.6",
+        "georgringer/news": ">=2.0",
+        "fluidtypo3/flux": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NamelessCoder\\Newsflux\\": "Classes/"
+        }
+    }
+}
